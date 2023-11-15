@@ -23,10 +23,21 @@ Siga estas etapas para iniciar o projeto em sua máquina:
 
 ## 🛠️ Tecnologias utilizadas
 
+### Front-end
+
 * [HTML 5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 * [CSS 3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 * [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+### Designer
+
+* [Figma](https://www.figma.com)
+* [WordPress](https://br.wordpress.org)
+
+### Divisão de tarefas
+
+* [Trello](https://www.trello.com)
 
 ## 👨‍💻👩‍💻 Programadores
 
