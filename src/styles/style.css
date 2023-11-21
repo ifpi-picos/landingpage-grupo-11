@@ -1,12 +1,66 @@
-body {
-    background-color: #fff;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/*Container*/
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.image-container {
+    flex: 1;
+    order: 2;
+}
+
+.text-container {
+    flex: 1;
+    order: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 10px; /* Adiciona um espaçamento entre a imagem e o texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    text-align: justify;
+    font-size: small;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-container h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1{
@@ -19,47 +73,44 @@ h1{
 
 /*Responsável Projeto*/
 
-.responsavelProjeto{
-    background-color:#549cfc;
+.responsavelProjeto {
+    background-color: #549cfc;
     height: 500px;
     border-radius: 8px;
-    padding-top: 20px; 
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.imagem{
+    padding: 20px;
+    margin: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
-.texto h2{
+.texto h2 {
     text-align: center;
     color: #043c74;
     font-family: 'Roboto', sans-serif;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-.texto h3{
+.texto h3 {
     text-align: center;
     color: antiquewhite;
     font-family: 'Roboto', sans-serif;
-    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.texto hr{
+.texto hr {
     margin-right: 20px;
     margin-left: 20px;
+    background-color: white;
+    height: 2px;
+    border: none;
 }
 
-.texto p{
+.texto p {
     text-align: center;
     color: antiquewhite;
     font-family: 'Roboto', sans-serif;
-    padding-top: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 20px;
     font-size: 20px;
 }
 
@@ -68,7 +119,11 @@ h1{
 .Agradecimentos{
     background-color:#043c74 ;
     height: 650px;
-    margin-top: 150px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .Agradecimentos h1{
@@ -80,7 +135,7 @@ h1{
     text-align: center;
     color: antiquewhite;
     font-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .row{
@@ -89,16 +144,27 @@ h1{
     align-items: center;
 }
 
-.column1{
-    /* flex: 33.33%; */
+.column1,
+.column {
     padding: 15px;
-    border-radius: 350px;
-    
+    border-radius: 50px;
+    align-self: center; /* Adiciona alinhamento vertical no centro */
+    overflow: hidden;
 }
 
-.column{
-    /* flex: 33.33%; */
-    padding: 15px;
+.column1 img,
+.column img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover; /* Força a imagem a cobrir completamente o espaço */
+}
+
+.column1 {
+    margin-right: 10px; /* Adiciona espaçamento à direita */
+}
+
+.column {
+    margin-left: 10px; /* Adiciona espaçamento à esquerda */
 }
 
 .button{
@@ -106,12 +172,7 @@ h1{
     border-radius: 8px;
     font-size: 24px;
     line-height: 2;
-    display: flex;
-    justify-content: center;
-    text-align: center;
     background-color:#549cfc;
-    margin-right: 580px;
-    margin-left: 610px;
     margin-bottom: 40px;
     color: antiquewhite;
     font-family: 'Roboto', sans-serif;
