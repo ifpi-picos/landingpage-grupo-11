@@ -8,48 +8,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto de Pesquisa</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f07d4bda15.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <!--Responsvel Projeto-->
 
-    <h1>Responsável pelo Projeto</h1>
+    <!--Menu de Navegação-->
+   
+    <header>
+        <nav class="nav-bar">
 
-    <div class="container">
-        <div class="image-container">
-            <img src="img2.jpg" alt="Imagem Professor">
+            <div class="logo-titulo">
+                <img src="img/logo.png" class="img-logo" alt="Logo do Projeto">
+                <div class="titulo">
+                    <h1 class="inicial">Física</h1>
+                </div>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Introdução</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Metodologia</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Linha do Tempo</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Responsável</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+           
+            <div class="artigo-button">
+                <button>Conheça nosso artigo <span>&rarr;</span></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+       
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Introdução</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Metodologia</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Linha do Tempo</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Responsável</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="artigo-button">
+                <button class="btn-artigo">Conheça nosso artigo <span>&rarr;</span></button>
+            </div>
         </div>
-        <div class="text-container">
-            <h2>Rui Marques</h2>
-            <p class="text">
-                Possui graduação em Licenciatura Plena em Matemática pela Universidade Federal do Piauí(2012),
-                especialização em Especialização em Educação: Matemática e Ciências pela Faculdade de Ciências 
-                de Wenceslau Braz(2014), mestrado em Matemática pela Universidade Federal do Piauí(2014) e 
-                doutorado em Matemática Aplicada pela Universidade Estadual de Campinas(2021). Atualmente é 
-                Professor do Instituto Federal do Piauí.
-            </p>
-        </div>
-    </div>
+    </header>
 
-    <section class="responsavelProjeto">
+    <main>
+       
+        <!--Tela de Apresentação-->
+
+        <section class="container-fluid pt-5 d-flex flex-column justify-content-center align-items-center h-100" id="inicio">
+            <div class="row">
+              <div class="col-lg-4 col-md-8 col-sm-8 col-8 container flex-column justify-content-center d-flex">
+                <h1 class="inicial">O uso do python como ferramenta metodológica no ensino da física</h1>
+                <p class="inicial">Projeto de pesquisa desenvolvido no curso de física do IFPI Campus Picos</p>
+                <div class="artigo-button d-flex gap-4">
+                    <button>Conheça nosso artigo <span>&rarr;</span></button>
+                </div>
+              </div>
+              <img class="img-projeto1 mx-auto" src="img/projeto1.jpeg" alt="Foto com a turma no encerramento do projeto" />
+            </div>
+          </section>
+
+
+        <!--Linha do Tempo-->
+         
+          <div class="container">
+            <h4>Linha do Tempo</h4>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-timeline">
+                        <a class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-globe"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Início</h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                </p>
+                            </div>
+                        </a>
+                        <a class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Desenvolvimento</h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                </p>
+                            </div>
+                        </a>
+                        <a class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Encerramento</h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                </p>
+                            </div>
+                        </a>
+                        <a class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-mobile"></i></div>
+                            <div class="timeline-content">
+                                <h3 class="title">Divulgação</h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+
+        <!--Responsvel Projeto-->
         
-        <div class="texto">
-            <h2>Rui Marques</h2>
-            <h3>Professor do IFPI - Campus Picos</h3>
-            <hr>
-            <p>Prezados colegas e membros da comunidade acadêmica, é com grande satisfação que me dirijo a vocês para
-            apresentar o projeto que desenvolvi, intitulado O uso do Python como ferramenta metodológica no ensino da física.
-            Como professor com formação acadêmica em Matemática, detendo graduação e mestrado na área, a concepção deste
-            projeto foi motivada por uma visão inovadora de integrar a programação Python no contexto do ensino de física.
-            </p>
+        <h1 class="final">Responsável pelo Projeto</h1>
+        
+        <div class="container-responsavel">
+            <div class="image-container">
+                <img src="img2.jpg" alt="Imagem Professor">
+            </div>
+            
+            <div class="text-container">
+                <h2>Rui Marques</h2>
+                <p class="text">
+                    Possui graduação em Licenciatura Plena em Matemática pela Universidade Federal do Piauí(2012),
+                    especialização em Especialização em Educação: Matemática e Ciências pela Faculdade de Ciências 
+                    de Wenceslau Braz(2014), mestrado em Matemática pela Universidade Federal do Piauí(2014) e 
+                    doutorado em Matemática Aplicada pela Universidade Estadual de Campinas(2021). Atualmente é 
+                    Professor do Instituto Federal do Piauí.
+                </p>
+            </div>
         </div>
-    </section>
+        
+        <section class="responsavelProjeto">
+            <div class="texto">
+                <h2>Rui Marques</h2>
+                <h3>Professor do IFPI - Campus Picos</h3>
+                <hr>
+                <p>Prezados colegas e membros da comunidade acadêmica, é com grande satisfação que me dirijo a vocês para
+                    apresentar o projeto que desenvolvi, intitulado O uso do Python como ferramenta metodológica no ensino da física.
+                    Como professor com formação acadêmica em Matemática, detendo graduação e mestrado na área, a concepção deste
+                    projeto foi motivada por uma visão inovadora de integrar a programação Python no contexto do ensino de física.
+                </p>
+            </div>
+        </section>
 
-    <!--Agradecimentos -->
-
-    <section class="Agradecimentos">
-        <h1>Agradecimentos</h1>
-        <p>Divulgue esse projeto com possiveis interessados,<br> 
+        <!--Agradecimentos -->
+        
+        <section class="Agradecimentos">
+            <h1 class="final">Agradecimentos</h1>
+            <p>Divulgue esse projeto com possiveis interessados,<br> 
             conheça nosso trabalho!</p>
         
         <button class="button">Conheça nosso artigo</button>
@@ -58,17 +174,17 @@
 
         <div class="row">
             <div class="column1">
-                <img src="src/img/instagram.jpeg" width="60" height="60" alt="imagem instagram">
+                <img src="img/instagram.jpeg" width="60" height="60" alt="imagem instagram">
             </div>
             <div class="column">
-                <img src="src/img/gmail.png" width="60" height="60" alt="Imagem gmail">
+                <img src="img/gmail.png" width="60" height="60" alt="Imagem gmail">
             </div>               
         </div>
-        
-    </section>   
-    
+        </section> 
+    </main>      
 </body>
 
+<script src="scripts/script.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
