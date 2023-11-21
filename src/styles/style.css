@@ -1,3 +1,118 @@
 body {
     background-color: #fff;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    padding-bottom: 50px;
+}
+
+/*Responsável Projeto*/
+
+.responsavelProjeto{
+    background-color:#549cfc;
+    height: 500px;
+    border-radius: 8px;
+    padding-top: 20px; 
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.texto h2{
+    text-align: center;
+    color: #043c74;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.texto h3{
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+}
+
+.texto hr{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.texto p{
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/*Agradecimento*/
+
+.Agradecimentos{
+    background-color:#043c74 ;
+    height: 650px;
+    margin-top: 150px;
+}
+
+.Agradecimentos h1{
+    color: antiquewhite;
+    padding-top: 80px;
+}
+
+.Agradecimentos p{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column1{
+    /* flex: 33.33%; */
+    padding: 15px;
+    border-radius: 350px;
+    
+}
+
+.column{
+    /* flex: 33.33%; */
+    padding: 15px;
+}
+
+.button{
+    padding:  0em 1em;
+    border-radius: 8px;
+    font-size: 24px;
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:#549cfc;
+    margin-right: 580px;
+    margin-left: 610px;
+    margin-bottom: 40px;
+    color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+}
