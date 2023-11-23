@@ -373,6 +373,21 @@ h4{
     font-family: 'Roboto', sans-serif;
 }
 
+.parag p{   
+    font-size: 16px;
+    margin-top: 40px;    
+}
+
+.parag a{
+    text-decoration: none;
+    color:var(--branco);
+}
+.parag a:hover{
+    background-color:var(--preto);
+}
+
+
+
 /*Responsividade*/
 
 
