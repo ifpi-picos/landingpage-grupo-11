@@ -532,14 +532,9 @@ h4{
 }
 
 #metodologia {
-    margin-top: 60px;
-}
-
-#metodologia .col-md-6 p {
-    margin-top: -40px;
-    margin-left: 5px;
-    margin-right: 100px;
-    margin-bottom: 5px;
+    margin-left: 60%;
+    margin-top: 12%;
+    margin-bottom: -5%;
 }
 
 #metodologia .img {
@@ -547,37 +542,41 @@ h4{
     gap: 10px;
 }
 
-.imagem-container {
-    width: 100%;
+.img .img-1, .img .img-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.imagem-metodologia {
-    margin-top: -10%;
-    width: 100%;
-    height: auto;
+.img .img-1 img, .img .img-2 img {
+    margin-top: 30px;
 }
 
-#item-1 {
-    max-width: 195px;
-    margin-left: 30%;
+.section-1 {
+    margin-bottom: 12%;
 }
 
-#item-2 {
-    max-width: 400px;
+.section-0 #paragrafo {
+    margin-left: 15%;
+}
+
+.section-1 #paragrafo {
+    margin-right: 20%;
+    margin-left: 5%;
 }
 
 #paragrafo {
     text-align: justify;
-    margin-top: 7px;
+    margin-top: 40px;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 15%;
 }
 
 .img {
     text-align: center;
     display: flex;
     justify-content: center;
+    margin-left: -10%;
 }
 
 #item {
@@ -585,3 +584,99 @@ h4{
     height: auto;
     width: 70%;
 }
+
+#item-1, #item-2 {
+    margin-top: 30%;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+#item-2 {
+    width: 100%;
+    margin-left: 30%;
+}
+
+#item-1 {
+    width: 62.3%;
+    margin-right: -50%;
+}
+
+#leonard, #carl {
+    margin-top: 10px;
+    margin-left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#carl {
+    margin-left: 35%;
+}
+
+@media only screen and (max-width: 767px) {
+    #introducao,
+    #metodologia {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20%;
+        margin-left: 0;
+    }
+
+    #metodologia {
+        margin-bottom: 5%;
+    }
+
+    #paragrafo {
+        text-align: justify;
+        margin-right: 14%;
+        margin-bottom: 10%;
+    }
+
+    .section-1 #paragrafo {
+        margin-top: 1%;
+        margin-right: 14%;
+        margin-left: 16%;
+    }
+
+    #item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+    .img .img-1,
+    .img .img-2 {
+        align-items: center;
+    }
+
+    #item-1,
+    #item-2 {
+        margin-top: 20px;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+
+    #item-1 {
+        width: 73%;
+        margin-right: -50px;
+    }
+
+    #item-2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #leonard {
+        margin-right: -20%;
+    }
+
+    #leonard,
+    #carl {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+}
+
