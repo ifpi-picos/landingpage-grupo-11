@@ -236,6 +236,14 @@ h4{
     margin-bottom: 100px;
 }
 
+.foto{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 40px;    
+}
+
 .image-container {
     flex: 1;
     order: 2;
