@@ -236,9 +236,11 @@ h4{
 }
 
 .foto{
-    width: 300px;
+    width: 250px;
     height: 300px;
     border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 40px;    
 }
 
 .image-container {
