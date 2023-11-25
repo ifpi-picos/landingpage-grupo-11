@@ -7,9 +7,13 @@
     <meta name="author" content="João Victor, Jovanio Oliveira, Letícia Barros">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto de Pesquisa</title>
+    <link rel="stylesheet" href="src/styles/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="src/scripts/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f07d4bda15.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
@@ -19,7 +23,7 @@
         <nav class="nav-bar">
 
             <div class="logo-titulo">
-                <img src="img/logo.png" class="img-logo" alt="Logo do Projeto">
+                <img src="src/img/logo.avif" class="img-logo" alt="Logo do Projeto">
                 <div class="titulo">
                     <h1 class="inicial">Física</h1>
                 </div>
@@ -36,11 +40,11 @@
             </div>
            
             <div class="artigo-button">
-                <button onclick="window.open('https://drive.google.com/drive/u/1/folders/1-t8oB5njY_Eb7GlLeKh7ZiCmCxCjZ9AP', '_blank')">Conheça nosso artigo <span>&rarr;</span></button>
+                <button onclick="window.open('https://drive.google.com/drive/u/1/folders/1-t8oB5njY_Eb7GlLeKh7ZiCmCxCjZ9AP', '_blank')" aria-label="Ler artigo no drive">Conheça nosso artigo <span>&rarr;</span></button>
             </div>
 
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+                <button onclick="menuShow()" aria-label="Abrir e Fechar o Menu"><img class="icon" src="src/img/menu_white_36dp.svg" alt=""></button>
             </div>
         </nav>
        
@@ -54,7 +58,7 @@
             </ul>
 
             <div class="artigo-button">
-                <button class="btn-artigo" onclick="window.open('https://drive.google.com/drive/u/1/folders/1-t8oB5njY_Eb7GlLeKh7ZiCmCxCjZ9AP', '_blank')">Conheça nosso artigo <span>&rarr;</span></button>
+                <button class="btn-artigo" onclick="window.open('https://drive.google.com/drive/u/1/folders/1-t8oB5njY_Eb7GlLeKh7ZiCmCxCjZ9AP', '_blank')" aria-label="Conheça nosso artigo ">Conheça nosso artigo <span>&rarr;</span></button>
             </div>
         </div>
     </header>
@@ -69,10 +73,10 @@
                 <h1 class="inicial">O uso do python como ferramenta metodológica no ensino da física</h1>
                 <p class="inicial">Projeto de pesquisa desenvolvido no curso de física do IFPI Campus Picos</p>
                 <div class="artigo-button d-flex gap-4">
-                    <button onclick="window.open('https://drive.google.com/drive/u/1/folders/1-t8oB5njY_Eb7GlLeKh7ZiCmCxCjZ9AP', '_blank')">Conheça nosso artigo <span>&rarr;</span></button>
+                    <button onclick="window.open('https://drive.google.com/drive/u/1/folders/1-t8oB5njY_Eb7GlLeKh7ZiCmCxCjZ9AP', '_blank')" aria-label="Conheça nosso artigo ">Conheça nosso artigo <span>&rarr;</span></button>
                 </div>
               </div>
-              <img class="img-projeto1 mx-auto img-fluid" src="img/projeto1.jpeg" alt="Foto com a turma no encerramento do projeto" />
+              <img class="img-projeto1 mx-auto img-fluid" src="src/img/projeto1.avif" alt="Foto com a turma no encerramento do projeto" />
             </div>
           </section>
 
@@ -106,7 +110,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img">
-                        <img src="./img/projeto2.jpeg" alt="" id="item" class="img-fluid">
+                        <img src="src/img/projeto2.avif" alt="" id="item" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -127,12 +131,12 @@
                 <div class="col-md-6">
                     <div class="img">
                         <div class="img-1">
-                            <img src="./img/Leonhard.jpg" alt="" id="item-1">
-                            <h4 id="leonard">Leonhard Paul Euler</h4>
+                            <img src="src/img/Leonhard Paul Euler.avif" alt="" id="item-1">
+                            <p id="leonard">Leonhard Paul Euler</p>
                         </div>
                         <div class="img-2">
-                            <img src="./img/Runge e Kutta.jpg" alt="" id="item-2">
-                            <h4 id="carl">Carl David Tolmé Runge e<br>Martin Wilhelm Kutta</h4>
+                            <img src="src/img/carl david tolmé runge e martin wilhelm kutta .avif" alt="" id="item-2">
+                            <p id="carl">Carl David Tolmé Runge e<br>Martin Wilhelm Kutta</p>
                         </div>
                     </div>
                 </div>
@@ -156,45 +160,43 @@
         <!--Linha do Tempo-->
          
           <div class="container" id="linha-do-tempo">
-            <h4>Linha do Tempo</h4>
+            <h1 class="linha-titulo">Linha do Tempo</h1>
             <div class="row">
                 <div class="col-md-12">
                     <div class="main-timeline">
-                        <a class="timeline">
+                        <a href="#linha-do-tempo" class="timeline">
                             <div class="timeline-icon"><i class="fa fa-globe"></i></div>
                             <div class="timeline-content">
-                                <h3 class="title">Início</h3>
+                                <h1 class="title">Início</h1>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing 
-                                    elit. Cupiditate ducimus officiis quod! Aperiam 
-                                    eveniet nam nostrum odit quasi ullam voluptatum.
+                                    Inspirado na capacitação dos alunos em métodos numéricos como Euler e Runge-Kutta, o projeto surgiu com o objetivo claro de ensinar programação de maneira prática e tangível.
                                 </p>
                             </div>
                         </a>
-                        <a class="timeline">
+                        <a href="#linha-do-tempo" class="timeline">
                             <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
                             <div class="timeline-content">
-                                <h3 class="title">Desenvolvimento</h3>
+                                <h1 class="title">Desenvolvimento</h1>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                    A transição para a prática começou com o ensino manual dos métodos de Euler e Runge-Kutta. Eles participaram ativamente na implementação desses métodos em Python.
                                 </p>
                             </div>
                         </a>
-                        <a class="timeline">
+                        <a href="#linha-do-tempo" class="timeline">
                             <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
                             <div class="timeline-content">
-                                <h3 class="title">Encerramento</h3>
+                                <h1 class="title">Encerramento</h1>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                    Na fase de encerramento e avaliação, dedicamos tempo à análise criteriosa do progresso e aprendizado dos alunos. Concentrados na preparação do artigo, sintetizamos experiências e resultados.
                                 </p>
                             </div>
                         </a>
-                        <a class="timeline">
+                        <a href="#linha-do-tempo" class="timeline">
                             <div class="timeline-icon"><i class="fa fa-mobile"></i></div>
                             <div class="timeline-content">
-                                <h3 class="title">Divulgação</h3>
+                                <h1 class="title">Divulgação</h1>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                    Focamos na disseminação do conhecimento adquirido ao apresentar o projeto para a comunidade educacional. Esse evento proporcionou uma oportunidade de compartilhar experiências e resultados com colegas.
                                 </p>
                             </div>
                         </a>
@@ -211,7 +213,7 @@
         
         <div class="container-responsavel"> 
             <div class="image-container"> 
-                <img class="foto" src="img/Prof._Rui.png" alt="Imagem Professor">
+                <img class="foto" src="src/img/Prof._Rui.avif" alt="Imagem Professor">
             </div>
             
             <div class="text-container">
@@ -246,38 +248,30 @@
             <p>Divulgue esse projeto com possiveis interessados,<br> 
             conheça nosso trabalho!</p>
         
-        <button class="button" onclick="window.open('https://drive.google.com/drive/u/1/folders/1-t8oB5njY_Eb7GlLeKh7ZiCmCxCjZ9AP', '_blank')">Conheça nosso artigo <span>&rarr;</span></button>
+            <button class="button" onclick="window.open('https://drive.google.com/drive/u/1/folders/1-t8oB5njY_Eb7GlLeKh7ZiCmCxCjZ9AP', '_blank')" aria-label="Conheça nosso artigo ">Conheça nosso artigo <span>&rarr;</span></button>
         
-        <p>Redes Sociais e Contato</p>
+            <p>Redes Sociais e Contato</p>
 
-        <div class="row">
-            <div class="column1">
-                <a href="https://www.instagram.com/ruibaliza/" target="_blank">
-                    <img class="img-insta" src="img/instagram.jpeg" width="60" height="60" alt="imagem instagram">
-                </a>
-            </div>
+            <div class="row">
+                <div class="column1">
+                    <a href="https://www.instagram.com/ruibaliza/" target="_blank">
+                        <img class="img-insta" src="src/img/instagram.avif" width="60" height="60" alt="imagem instagram">
+                    </a>
+                </div>
             <div class="column">
                 <a href="mailto:rui.marques@ifpi.edu.br">
-                    <img src="img/gmail.png" width="60" height="60" alt="Imagem gmail">
+                    <img src="src/img/gmail.avif" width="60" height="60" alt="Imagem gmail">
                 </a>
             </div>               
-        </div>
+            </div>
 
-        <footer class="parag">
-            <p onclick="window.open('https://github.com/ifpi-picos/landingpage-grupo-11', '_blank')">
-                <a>Landing Page - Grupo 11 - MAMBEE BOOTCAMP 2023</a>
-            </p>
-
-        </footer>      
-        
-        </section>             
-       
+            <footer class="parag">
+                <p onclick="window.open('https://github.com/ifpi-picos/landingpage-grupo-11', '_blank')">
+                    <p>Landing Page - Grupo 11 - MAMBEE BOOTCAMP 2023</p>
+                </p>
+            </footer>      
+        </section>                
     </main>      
 </body>
-
-<script src="scripts/script.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </html>
