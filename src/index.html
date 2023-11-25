@@ -27,16 +27,16 @@
 
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Introdução</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Metodologia</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Linha do Tempo</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Responsável</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="#introducao" class="nav-link">Introdução</a></li>
+                    <li class="nav-item"><a href="#metodologia" class="nav-link">Metodologia</a></li>
+                    <li class="nav-item"><a href="#linha-do-tempo" class="nav-link">Linha do Tempo</a></li>
+                    <li class="nav-item"><a href="#responsavel" class="nav-link">Responsável</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
                 </ul>
             </div>
            
             <div class="artigo-button">
-                <button>Conheça nosso artigo <span>&rarr;</span></button>
+                <button onclick="window.open('https://drive.google.com/drive/u/1/folders/1-t8oB5njY_Eb7GlLeKh7ZiCmCxCjZ9AP', '_blank')">Conheça nosso artigo <span>&rarr;</span></button>
             </div>
 
             <div class="mobile-menu-icon">
@@ -46,15 +46,15 @@
        
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Introdução</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Metodologia</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Linha do Tempo</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Responsável</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                <li class="nav-item"><a href="#introducao" class="nav-link">Introdução</a></li>
+                <li class="nav-item"><a href="#metodologia" class="nav-link">Metodologia</a></li>
+                <li class="nav-item"><a href="#linha-do-tempo" class="nav-link">Linha do Tempo</a></li>
+                <li class="nav-item"><a href="#responsavel" class="nav-link">Responsável</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
             </ul>
 
             <div class="artigo-button">
-                <button class="btn-artigo">Conheça nosso artigo <span>&rarr;</span></button>
+                <button class="btn-artigo" onclick="window.open('https://drive.google.com/drive/u/1/folders/1-t8oB5njY_Eb7GlLeKh7ZiCmCxCjZ9AP', '_blank')">Conheça nosso artigo <span>&rarr;</span></button>
             </div>
         </div>
     </header>
@@ -63,13 +63,13 @@
        
         <!--Tela de Apresentação-->
 
-        <section class="container-fluid pt-5 d-flex flex-column justify-content-center align-items-center h-100" id="inicio">
+        <section class="textura pt-5 d-flex flex-column justify-content-center align-items-center h-100" id="inicio">
             <div class="row">
               <div class="col-lg-4 col-md-8 col-sm-8 col-8 container flex-column justify-content-center d-flex">
                 <h1 class="inicial">O uso do python como ferramenta metodológica no ensino da física</h1>
                 <p class="inicial">Projeto de pesquisa desenvolvido no curso de física do IFPI Campus Picos</p>
                 <div class="artigo-button d-flex gap-4">
-                    <button>Conheça nosso artigo <span>&rarr;</span></button>
+                    <button onclick="window.open('https://drive.google.com/drive/u/1/folders/1-t8oB5njY_Eb7GlLeKh7ZiCmCxCjZ9AP', '_blank')">Conheça nosso artigo <span>&rarr;</span></button>
                 </div>
               </div>
               <img class="img-projeto1 mx-auto img-fluid" src="img/projeto1.jpeg" alt="Foto com a turma no encerramento do projeto" />
@@ -78,10 +78,10 @@
 
         <!--Introdução-->
 
-        <section class="container-fluid" id="introducao">
+        <section class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h1><strong>Introdução</strong></h1>
+                    <h1 id="introducao"><strong>Introdução</strong></h1>
                 </div>
             </div>
         </section>
@@ -114,10 +114,10 @@
         
         <!-- Metodologia -->
         
-        <section class="container-fluid" id="metodologia">
+        <section class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h1><strong>Metodologia</strong></h1>
+                    <h1 id="metodologia"><strong>Metodologia</strong></h1>
                 </div>
             </div>
         </section>
@@ -155,7 +155,7 @@
         
         <!--Linha do Tempo-->
          
-          <div class="container">
+          <div class="container" id="linha-do-tempo">
             <h4>Linha do Tempo</h4>
             <div class="row">
                 <div class="col-md-12">
@@ -207,7 +207,7 @@
 
         <!--Responsável Projeto-->
         
-        <h1 class="final">Responsável pelo Projeto</h1>
+        <h1 class="final" id="responsavel">Responsável pelo Projeto</h1>
         
         <div class="container-responsavel"> 
             <div class="image-container"> 
@@ -241,27 +241,31 @@
 
         <!--Agradecimentos -->
         
-        <section class="Agradecimentos">
+        <section class="Agradecimentos" id="contato">
             <h1 class="final">Agradecimentos</h1>
             <p>Divulgue esse projeto com possiveis interessados,<br> 
             conheça nosso trabalho!</p>
         
-        <button class="button">Conheça nosso artigo</button>
+        <button class="button" onclick="window.open('https://drive.google.com/drive/u/1/folders/1-t8oB5njY_Eb7GlLeKh7ZiCmCxCjZ9AP', '_blank')">Conheça nosso artigo <span>&rarr;</span></button>
         
         <p>Redes Sociais e Contato</p>
 
         <div class="row">
             <div class="column1">
-                <img src="img/instagram.jpeg" width="60" height="60" alt="imagem instagram">
+                <a href="https://www.instagram.com/ruibaliza/" target="_blank">
+                    <img class="img-insta" src="img/instagram.jpeg" width="60" height="60" alt="imagem instagram">
+                </a>
             </div>
             <div class="column">
-                <img src="img/gmail.png" width="60" height="60" alt="Imagem gmail">
+                <a href="mailto:rui.marques@ifpi.edu.br">
+                    <img src="img/gmail.png" width="60" height="60" alt="Imagem gmail">
+                </a>
             </div>               
         </div>
 
         <footer class="parag">
-            <p>
-                <a href="https://github.com/ifpi-picos/landingpage-grupo-11">Landing page-Grupo 11 - </a> MAMBEE BOOTCAMP 2023
+            <p onclick="window.open('https://github.com/ifpi-picos/landingpage-grupo-11', '_blank')">
+                <a>Landing Page - Grupo 11 - MAMBEE BOOTCAMP 2023</a>
             </p>
 
         </footer>      

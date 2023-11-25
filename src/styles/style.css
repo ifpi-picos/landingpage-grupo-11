@@ -76,6 +76,7 @@ header {
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
+    cursor: pointer;
     background-color: var(--azul-claro);
     color: var(--branco);
 }
@@ -124,7 +125,7 @@ main {
     background-color: var(--azul-escuro);
 }
 
-.container-fluid {
+.textura {
     background-image: url(../img/detalhe1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -141,6 +142,98 @@ main {
     margin-right: auto;
     margin-top: 70px;
     margin-bottom: 100px;
+}
+
+/*Introdução e Metodologia*/
+
+
+#introducao {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 12%;
+    font-size: 50px;
+}
+
+#metodologia {
+    margin-left: 60%;
+    margin-top: 12%;
+    margin-bottom: -5%;
+}
+
+#metodologia .img {
+    display: flex;
+    gap: 10px;
+}
+
+.img .img-1, .img .img-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img .img-1 img, .img .img-2 img {
+    margin-top: 30px;
+}
+
+.section-1 {
+    margin-bottom: 12%;
+}
+
+.section-0 #paragrafo {
+    margin-left: 15%;
+}
+
+.section-1 #paragrafo {
+    margin-right: 20%;
+    margin-left: 5%;
+}
+
+#paragrafo {
+    text-align: justify;
+    margin-top: 40px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: -10%;
+}
+
+#item {
+    max-width: 100%;
+    height: auto;
+    width: 70%;
+}
+
+#item-1, #item-2 {
+    margin-top: 30%;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+#item-2 {
+    width: 100%;
+    margin-left: 30%;
+}
+
+#item-1 {
+    width: 62.3%;
+    margin-right: -50%;
+}
+
+#leonard, #carl {
+    margin-top: 10px;
+    margin-left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#carl {
+    margin-left: 35%;
 }
 
 /*Linha Do Tempo*/
@@ -372,6 +465,8 @@ h4{
 }
 
 .button{
+    cursor: pointer;
+    border: none;
     padding:  0em 1em;
     border-radius: 8px;
     font-size: 24px;
@@ -382,9 +477,14 @@ h4{
     font-family: 'Roboto', sans-serif;
 }
 
+.img-insta {
+    border-radius: 100px;
+}
+
 .parag p{   
     font-size: 16px;
-    margin-top: 40px;    
+    margin-top: 40px;
+    cursor: pointer;   
 }
 
 .parag a{
@@ -522,95 +622,6 @@ h4{
  
  
     .main-timeline .timeline-content:after,.main-timeline .timeline:nth-child(2n) .timeline-content:after{left:65px}
-}
-
-#introducao {
-    display: flex;
-    margin-top: 5%;
-    margin-left: 12%;
-    font-size: 50px;
-}
-
-#metodologia {
-    margin-left: 60%;
-    margin-top: 12%;
-    margin-bottom: -5%;
-}
-
-#metodologia .img {
-    display: flex;
-    gap: 10px;
-}
-
-.img .img-1, .img .img-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.img .img-1 img, .img .img-2 img {
-    margin-top: 30px;
-}
-
-.section-1 {
-    margin-bottom: 12%;
-}
-
-.section-0 #paragrafo {
-    margin-left: 15%;
-}
-
-.section-1 #paragrafo {
-    margin-right: 20%;
-    margin-left: 5%;
-}
-
-#paragrafo {
-    text-align: justify;
-    margin-top: 40px;
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.img {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-left: -10%;
-}
-
-#item {
-    max-width: 100%;
-    height: auto;
-    width: 70%;
-}
-
-#item-1, #item-2 {
-    margin-top: 30%;
-    max-width: 100%;
-    height: auto;
-    width: 100%;
-}
-
-#item-2 {
-    width: 100%;
-    margin-left: 30%;
-}
-
-#item-1 {
-    width: 62.3%;
-    margin-right: -50%;
-}
-
-#leonard, #carl {
-    margin-top: 10px;
-    margin-left: 50%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-}
-
-#carl {
-    margin-left: 35%;
 }
 
 @media only screen and (max-width: 767px) {
