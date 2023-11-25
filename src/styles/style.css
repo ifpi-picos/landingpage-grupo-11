@@ -495,6 +495,11 @@ a{
     background-color:var(--preto);
 }
 
+.readme {
+    cursor: pointer;
+    color: var(--branco);
+}
+
 
 
 /*Responsividade*/
