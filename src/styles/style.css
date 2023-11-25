@@ -8,6 +8,10 @@
     --amarelo: #FFE492;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     overflow-x: hidden;
     background-color: var(--branco);
@@ -403,7 +407,7 @@ a{
 }
 
 .texto p {
-    text-align: center;
+    text-align: justify;
     color: var(--branco);
     font-family: 'Roboto', sans-serif;
     margin: 20px;
