@@ -10,6 +10,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -527,6 +528,29 @@ a{
 
 /*Responsividade*/
 
+@media only screen and (max-width: 1280px) {
+
+/*Menu de Navegação*/
+
+
+.icon {
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    margin-left: -80px;
+    margin-bottom: 10px;
+}
+
+.artigo-button button {
+    margin-top: 5px;
+}
+
+}
+
 @media only screen and (max-width: 1235px) {
     
 /*Menu de Navegação*/
@@ -617,29 +641,9 @@ a{
 
 }
 
+@media only screen and (max-width: 1113px) {
 
-@media only screen and (max-width:990px){
-
-
-    /*Linha do Tempo*/
-
-
-    .main-timeline .timeline{margin:0 0 10px}
- 
- 
-    .main-timeline .timeline-icon{left:25%}
- 
- 
-    .main-timeline .timeline:nth-child(even) .timeline-icon{right:25%}
- 
- 
-    .main-timeline .timeline-content{margin-top:115px}
-}
- 
-@media only screen and (max-width:767px){
-
-
-    /*Menu de Navegação*/
+/*Menu de Navegação*/
 
 
     .logo-titulo {
@@ -683,6 +687,35 @@ a{
         display: block;
     }
 
+/*Tela de Apresentação*/
+
+.img-projeto1 {
+    width: 500px;
+    height: 300px;
+}
+
+}
+
+
+@media only screen and (max-width:990px){
+
+
+    /*Linha do Tempo*/
+
+
+    .main-timeline .timeline{margin:0 0 10px}
+ 
+ 
+    .main-timeline .timeline-icon{left:25%}
+ 
+ 
+    .main-timeline .timeline:nth-child(even) .timeline-icon{right:25%}
+ 
+ 
+    .main-timeline .timeline-content{margin-top:115px}
+}
+ 
+@media only screen and (max-width:767px){
 
     /*Linha do Tempo*/
    
@@ -726,20 +759,6 @@ a{
  
  
   .main-timeline .timeline-content:after,.main-timeline .timeline:nth-child(even) .timeline-content:after{left:85px}
-}
- 
- 
-@media only screen and (max-width:479px){
-
-
-    /*Linha do Tempo*/
-    .main-timeline .timeline-content,.main-timeline .timeline:nth-child(2n) .timeline-content{padding-left:110px}
- 
- 
-    .main-timeline .timeline-content:before,.main-timeline .timeline:nth-child(2n) .timeline-content:before{left:99px}
- 
- 
-    .main-timeline .timeline-content:after,.main-timeline .timeline:nth-child(2n) .timeline-content:after{left:65px}
 }
 
 @media only screen and (max-width: 767px) {
@@ -808,4 +827,102 @@ a{
         margin-top: 10px;
         margin-left: 0;
     }
+
 }
+
+@media only screen and (max-width:479px){
+
+
+    /*Linha do Tempo*/
+    .main-timeline .timeline-content,.main-timeline .timeline:nth-child(2n) .timeline-content{padding-left:110px}
+ 
+ 
+    .main-timeline .timeline-content:before,.main-timeline .timeline:nth-child(2n) .timeline-content:before{left:99px}
+ 
+ 
+    .main-timeline .timeline-content:after,.main-timeline .timeline:nth-child(2n) .timeline-content:after{left:65px}
+}
+
+@media only screen and (max-width: 280px) {
+
+/*Menu de Navegação*/
+
+
+.icon {
+    margin-bottom: -20px;
+    margin-left: -20px;
+}
+
+.titulo h1 {
+    font-size: 30px;
+}
+
+.img-logo {
+    width: 50px;
+    height: 50px;
+}
+
+/*Tela de Apresentação*/
+
+.inicial {
+    font-size: 1.1rem;
+}
+
+.artigo-button button {
+    width: 150px;
+    height: 40px;
+
+    font-size: 11px;
+
+} 
+
+.img-projeto1 {
+    width: 250px;
+    height: 150px;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+/*Responsável Projeto*/
+
+.texto h2 {
+    font-size: 30px;
+}
+
+.texto h3 {
+    font-size: 20px;
+}
+
+.texto p {
+    font-size: 10px;
+    word-break: break-all;
+}
+
+/* Agradecimentos */
+
+.Agradecimentos {
+    width: 290px;
+    height: 500px;
+}
+
+.Agradecimentos h1 {
+    font-size: 30px;
+}
+
+.Agradecimentos p {
+    font-size: 15px;
+}
+
+.Agradecimentos button {
+    width: 150px;
+    height: 40px;
+    font-size: 11px;
+}
+
+.parag a{
+    font-size: 10px;
+}
+
+}
+
